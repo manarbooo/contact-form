@@ -246,33 +246,33 @@ textarea:focus{
     .formItem{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 95%;
     }
     
     .row{
         flex-direction: column;
-        width: 100%;
+        width: 95%;
     }
     
     .inputField{
-        width: 100%;
+        width: 95%;
         height: 40px;
     }
     
     
     .full{
-        width: 100%;
+        width: 95%;
         margin: 8px;
     }
     
     .half{
-        width: 100%;
+        width: 95%;
         margin: 8px;
     }
     
     .radioGroup {
         border: none;
-        width: 100%;
+        width: 95%;
         margin-left: 20px;
     }
     
@@ -280,7 +280,7 @@ textarea:focus{
         display: flex;
         align-items: center;
         border: 1px solid var(--Grey_900_darker);
-        width: 107%;
+        width: 102%;
         height: 43px;
         border-radius: 5px;
         margin: 8px;
@@ -297,7 +297,7 @@ textarea:focus{
     
     textarea{
         height: 200px;
-        width: 100%;
+        width: 95%;
         margin-left: 10px;
     }
     
@@ -318,7 +318,7 @@ textarea:focus{
     }
     
     .submitBtn{
-       width: 100%;
+       width: 95%;
        height: 40px;
     }
     
