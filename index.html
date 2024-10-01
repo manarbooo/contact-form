@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="styles.css" rel="stylesheet">
+
+  <title>Frontend Mentor | Contact form</title>
+
+  
+</head>
+<body>
+  <section class="successAlert">
+    <p class="success"><img src="assets/images/icon-success-check.svg" class="iconSuccess"> <span class="msgSent">Message Sent!</span></p>
+    <p class="successDesc">Thanks for completing the form. We'll be in touch soon!</p>
+  </section>
+  <main class="container">
+    <h1 class="heading">Contact Us</h1>
+    <form action="#" class="form" id="form">
+      
+      <div class="row">
+        <div class="formItem">
+          <label for="name">First Name *</label>
+          <input type="text" class="inputField half" id="name" name="name">
+          <span class="errormessage"></span>
+        </div>
+
+        <div class="formItem">
+          <label for="lastName">Last Name *</label>
+          <input type="text" class="inputField half" id="lastName" name="lastName">
+          <span class="errormessage"></span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="formItem">
+          <label for="lastName">Email Address *</label>
+          <input type="email" class="inputField full" id="email" name="email">
+          <span class="errormessage"></span>
+        </div>
+      </div>
+   
+      <fieldset class="radioGroup">
+        <legend>Query Type *</legend>
+        <div class="row">
+          <div class="radioItem">
+            <input type="radio" class="inputRadio" id="generalEnquiry" name="query">
+            <label for="generalEnquiry">General Enquiry</label>
+          </div>
+
+          <div class="radioItem">
+            <input type="radio" class="inputRadio" id="supportRequest" name="query">
+            <label for="supportRequest">Support Request</label>
+          </div>
+        </div>
+        <span class="errormessage"></span>
+      </fieldset>
+
+
+      <div class="row">
+        <div class="formItem">
+          <label for="message">Message *</label>
+          <textarea  class="textarea" id="message" name="message"></textarea>
+          <span class="errormessage"></span>
+        </div>
+      </div>
+      
+      <div class="formItem">
+        <div class="row checkboxRow">
+          <input  class="checkbox" id="checkbox" type="checkbox" name="checkbox">
+          <label for="checkbox">I consent to being contacted by the team *</label>
+        </div>
+        <span class="errormessage"></span>
+      </div>
+
+      <button class="submitBtn">Submit</button>
+      </form>
+  </main>
+  
+  
+  <script src="main.js"></script>
+  
+</body>
+</html>
+
+
+<!--
+
+
+  First Name
+  This field is required
+
+  Last Name
+  This field is required
+
+  Email Address
+  Please enter a valid email address
+  This field is required
+
+  Query Type
+  General Enquiry
+  Support Request
+  Please select a query type
+
+  Message
+  This field is required
+
+  I consent to being contacted by the team
+  To submit this form, please consent to being contacted
+
+  Submit
+
+  Message Sent!
+  Thanks for completing the form. We'll be in touch soon!
+-->
